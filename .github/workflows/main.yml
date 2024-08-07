@@ -1,0 +1,19 @@
+name: Update latest branch
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  update-latest:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+
+    - name: Update latest branch
+      run: |
+        git checkout -B latest
+        git push origin latest --force
