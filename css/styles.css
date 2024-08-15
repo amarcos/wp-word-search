@@ -17,7 +17,7 @@
 #wp-ws-wrapper .wl-container .wl-card{
     flex: 1 1 calc(25% - 10px);
     box-sizing: border-box;
-    max-width: 25%;
+    max-width: calc(25% - 10px);
 }
 #wp-ws-wrapper .wl-container .wl-card .wl-content{
     background-color: lightgray;
@@ -38,13 +38,13 @@
 @media (max-width: 992px) {
     #wp-ws-wrapper .wl-container .wl-card {
         flex: 1 1 calc(33.33% - 10px);
-        max-width: 33.33%;
+        max-width: calc(33.33% - 10px);
     }
 }
 @media (max-width: 768px) {
     #wp-ws-wrapper .wl-container .wl-card {
         flex: 1 1 calc(50% - 10px);
-        max-width: 50%;
+        max-width: calc(50% - 10px);
     }
 }
 @media (max-width: 480px) {

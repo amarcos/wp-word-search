@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Opção de estilização (escolhar do número de colunas exibidas em tamanhos de tela diferentes).
 - Minificar CSS e JS
 
+## [1.0.1]
+### Fixed
+- Tamanho dos cards da última linha da listagem extrapolavam o valor correto quando a linha não tinha o número total de cards.
+- Texto no bloco de exemplos no README.md.
+
 ## [1.0.0]
 ### Added
 - Shortcode que recebe uma lista de palavras separadas por vírgula como parâmetro.
